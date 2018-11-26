@@ -62,4 +62,5 @@ names(AggData)[3] <- "ACTIVITY"
 names(AggData)[4] <- "Variable"
 names(AggData)[5] <- "Value"
 
+write.table(AggData,file ="AggData.txt" ,row.name=FALSE)
 head(AggData)
